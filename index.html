@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE PIECE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ! header section start -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="luffy" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">HOME</a>
+        <a href="aboutus.html" class="">ABOUT</a>
+        <a href="review.html" class="">COSTUMER'S REVIEW</a>
+        <a href="blogs.html" class="">BLOG POSTS</a>
+        <a href="contact.html" class="">CONTACT</a>
+      </nav>
+
+      <div class="social-media-buttons">
+        <a href="https://www.facebook.com/onepieceofficial/" target="_blank">
+            <i class="fa-brands fa-facebook face"></i>
+        </a>
+        <a href="https://twitter.com/OnePieceAnime" target="_blank">
+            <i class="fa-brands fa-twitter twit"></i>
+        </a>
+        <a href="https://www.instagram.com/onepiece_staff/" target="_blank">
+            <i class="fa-brands fa-instagram insta"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ahmet-rafet-seyhan-745342258/" target="_blank">
+            <i class="fa-brands fa-linkedin link"></i>
+        </a>
+        <button id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- ! header section end -->
+        <!--! slider start-->
+  <div id="slider">
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="images/slide1.jfif" >
+    </div>
+
+    <div class="slide" style="background:coral;">
+       <img src="images/slide2.jpg" >
+    </div>
+
+    <div class="slide" style="background:crimson;">
+      <img src="images/slide3.jpg" >
+    </div>
+
+    <div class="slide" style="background: #6edf10;">
+      <img src="images/slide4.jpg" >
+    </div>
+
+    <!--! controlling arrows start-->
+    <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+  </span>
+    <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+  </span>
+  </div>
+    <div id="dots-con">
+   <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+   </div>
+   <!--! controlling arrows end-->
+       <!--! slider end-->
+    <!-- ! cards start -->
+    <section class="cards">
+        <h1 class="heading">one piece <span>cards</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards1.png" alt="zoro's card">
+                    <span class="card-category">Zoro</span>
+                    <h3>+5000 Roronoa Zoro</h3>
+                    <div class="price">$99.99 <span>129.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards2.jpg" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+7000 Monkey D. Luffy</h3>
+                    <div class="price">$129.99 <span>149.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards3.jfif" alt="zoro's card">
+                    <span class="card-category">Law</span>
+                    <h3>+5000 Trafalgar Law</h3>
+                    <div class="price">$89.99 <span>119.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards4.jpg" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+4000 Mokney D. Luffy</h3>
+                    <div class="price">$69.99 <span>89.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards25.jpg" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+700 Mokney D. Luffy</h3>
+                    <div class="price">$129.99 <span>159.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards30.jpg" alt="zoro's card">
+                    <span class="card-category">KAIDO</span>
+                    <h3>+10000 Kaido</h3>
+                    <div class="price">$219.99 <span>259.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards28.png" alt="zoro's card">
+                    <span class="card-category">W.Beard</span>
+                    <h3>+10000 White Beard</h3>
+                    <div class="price">$199.99 <span>229.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards7.jpg" alt="zoro's card">
+                    <span class="card-category">Mihavk</span>
+                    <h3>+9000 Mihavk</h3>
+                    <div class="price">$189.99 <span>219.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards8.jfif" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+1000 Mokney D. Luffy</h3>
+                    <div class="price">$49.99 <span>69.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards9.jpg" alt="zoro's card">
+                    <span class="card-category">X-Drake</span>
+                    <h3>+5000 X-Drake</h3>
+                    <div class="price">$89.99 <span>99.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards10.png" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+5000 Mokney D. Luffy</h3>
+                    <div class="price">$119.99 <span>129.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards11.jpg" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+5000 Mokney D. Luffy</h3>
+                    <div class="price">$129.99 <span>139.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards12.jpg" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+5000 Mokney D. Luffy</h3>
+                    <div class="price">$139.99 <span>159.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards13.jpg" alt="zoro's card">
+                    <span class="card-category">Luffy</span>
+                    <h3>+3000 Mokney D. Luffy</h3>
+                    <div class="price">$69.99 <span>89.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards27.jpg" alt="zoro's card">
+                    <span class="card-category">Law</span>
+                    <h3>+6000 Trafalgar Law</h3>
+                    <div class="price">$149.99 <span>169.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards15.png" alt="zoro's card">
+                    <span class="card-category">Law</span>
+                    <h3>+5000 Trafalgar Law</h3>
+                    <div class="price">$119.99 <span>139.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards16.png" alt="zoro's card">
+                    <span class="card-category">Nami</span>
+                    <h3>+5000 Nami</h3>
+                    <div class="price">$99.99 <span>129.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards17.jpg" alt="zoro's card">
+                    <span class="card-category">Crocodile</span>
+                    <h3>+5000 MR. Crocodile</h3>
+                    <div class="price">$129.99 <span>149.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards26.jpg" alt="zoro's card">
+                    <span class="card-category">Usopp</span>
+                    <h3>+8000 Usopp</h3>
+                    <div class="price">$169.99 <span>189.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards19.jpg" alt="zoro's card">
+                    <span class="card-category">Crocodile</span>
+                    <h3>+5000 MR. Crocodile</h3>
+                    <div class="price">$129.99 <span>139.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards20.png" alt="zoro's card">
+                    <span class="card-category">W. Beard</span>
+                    <h3>+6000 White Beard</h3>
+                    <div class="price">$139.99 <span>159.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards21.png" alt="zoro's card">
+                    <span class="card-category">Garp</span>
+                    <h3>+5000 Mokney D. Garp</h3>
+                    <div class="price">$129.99 <span>149.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards22.png" alt="zoro's card">
+                    <span class="card-category">Kin'emon</span>
+                    <h3>+5000 Kin'emon</h3>
+                    <div class="price">$119.99 <span>139.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards23.png" alt="zoro's card">
+                    <span class="card-category">Ace</span>
+                    <h3>+7000 Gol D. Ace</h3>
+                    <div class="price">$199.99 <span>239.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/cards24.png" alt="zoro's card">
+                    <span class="card-category">Sanji</span>
+                    <h3>+5000 Sanji</h3>
+                    <div class="price">$139.99 <span>159.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to card</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ! cards end -->
+
+        <!-- ! footer start -->
+        <section class="footer">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="search">
+                <button class="btn btn-primary">search</button>
+            </div>
+            <div class="share">
+                <a href="https://www.facebook.com/onepieceofficial/" target="_blank" class="fab fa-facebook"></a>
+                <a href="https://twitter.com/OnePieceAnime" target="_blank" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/onepiece_staff/" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/ahmet-rafet-seyhan-745342258/" target="_blank" class="fab fa-linkedin"></a>
+            </div>
+
+            <div class="links">
+                <a href="index.html" class="active">HOME</a>
+                <a href="aboutus.html">ABOUT</a>
+                <a href="review.html">COSTUMER'S REVIEW</a>
+                <a href="blogs.html">BLOG POSTS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+
+            <div class="credit">
+                created by <span>Rafet SEYHAN</span> | all rights reserved.
+            </div>
+        </section>
+    <!-- ! footer end -->
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

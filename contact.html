@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE PIECE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ! header section start -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="luffy" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="">HOME</a>
+        <a href="aboutus.html" class="">ABOUT</a>
+        <a href="review.html" class="">COSTUMER'S REVIEW</a>
+        <a href="blogs.html" class="">BLOG POSTS</a>
+        <a href="contact.html" class="active">CONTACT</a>
+      </nav>
+
+      <div class="social-media-buttons">
+        <a href="https://www.facebook.com/onepieceofficial/" target="_blank">
+          <i class="fa-brands fa-facebook face"></i>
+        </a>
+        <a href="https://twitter.com/OnePieceAnime" target="_blank">
+          <i class="fa-brands fa-twitter twit"></i>
+        </a>
+        <a href="https://www.instagram.com/onepiece_staff/" target="_blank">
+          <i class="fa-brands fa-instagram insta"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ahmet-rafet-seyhan-745342258/" target="_blank">
+          <i class="fa-brands fa-linkedin link"></i>
+        </a>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- ! header section end -->
+        <!--! slider start-->
+  <div id="slider">
+    <div class="slide" style="background:dodgerBlue;">
+      <img src="images/slide1.jfif" >
+    </div>
+
+    <div class="slide" style="background:coral;">
+       <img src="images/slide2.jpg" >
+    </div>
+
+    <div class="slide" style="background:crimson;">
+      <img src="images/slide3.jpg" >
+    </div>
+
+    <div class="slide" style="background: #6edf10;">
+      <img src="images/slide4.jpg" >
+    </div>
+
+    <!--! controlling arrows start-->
+    <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+  </span>
+    <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+  </span>
+  </div>
+    <div id="dots-con">
+   <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+   </div>
+   <!--! controlling arrows end-->
+       <!--! slider end-->
+    <!-- ! contact start -->
+    <section class="contact">
+      <h3 class="heading">contact <span>us</span></h3>
+      <div class="row">
+        <iframe
+        class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d130673004.18541937!2d-4.39753049781831!3d1.8118349953052886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355312c354165f89%3A0x409e823b7bcf3af7!2sONE%20PIECE%2C%20Nukatsubo%20%C5%8Cbarach%C5%8D%2C%20Tokushima%2C%20770-8012%2C%20Japonya!5e0!3m2!1str!2str!4v1675454850059!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="e-mail">
+            </div>
+            <div class="inputBox">
+                <i class="fas fa-phone"></i>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" class="btn" value="contact now">
+        </form>
+      </div>
+    </section>
+    <!-- ! contact end -->
+        <!-- ! footer start -->
+        <section class="footer">
+          <div class="search">
+              <input type="text" class="search-input" placeholder="search">
+              <button class="btn btn-primary">search</button>
+          </div>
+          <div class="share">
+              <a href="https://www.facebook.com/onepieceofficial/" target="_blank" class="fab fa-facebook"></a>
+              <a href="https://twitter.com/OnePieceAnime" target="_blank" class="fab fa-twitter"></a>
+              <a href="https://www.instagram.com/onepiece_staff/" target="_blank" class="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/ahmet-rafet-seyhan-745342258/" target="_blank" class="fab fa-linkedin"></a>
+          </div>
+
+          <div class="links">
+              <a href="index.html">HOME</a>
+              <a href="aboutus.html">ABOUT</a>
+              <a href="review.html">COSTUMER'S REVIEW</a>
+              <a href="blogs.html">BLOG POSTS</a>
+              <a href="contact.html"class="active">CONTACT</a>
+          </div>
+
+          <div class="credit">
+              created by <span>Rafet SEYHAN</span> | all rights reserved.
+          </div>
+      </section>
+  <!-- ! footer end -->
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
